@@ -25,7 +25,7 @@ public class TCP_Client_Joc {
         }
         try {
             socket = new Socket(server, port);
-            System.out.println("Conectat la serverul " + socket.getInetAddress() + ":" + socket.getPort());
+            System.out.println("Connected to server " + socket.getInetAddress() + ":" + socket.getPort());
         } catch (UnknownHostException e) {
             System.out.println(e);
             System.exit(ERROR);
